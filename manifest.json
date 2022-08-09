@@ -1,0 +1,27 @@
+{
+  "name": "zendesk-copilot",
+  "author": {
+    "name": "Neeraj",
+    "email": "neeraj@getduckbill.com",
+    "url": "https://neeraj.example.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": {
+        "url": "http://localhost:3000/",
+        "flexible": true
+      }
+    }
+  },
+  "parameters": [
+    {
+      "name": "api_token",
+      "type": "text",
+      "secure": true
+    }
+  ],
+  "version": "1.0.0",
+  "frameworkVersion": "2.0"
+}
